@@ -44,9 +44,10 @@
                 }
 
                 if (numGuesses === 0) {
-
+ 
                     numGuesses = 9;
-z                    guessChoices = [];
+                    losses++;
+                    guessChoices = [];
                     document.getElementById("myImg").src = "assets/images/poorly.giphy.gif"
 
                 }

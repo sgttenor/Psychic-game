@@ -1,24 +1,33 @@
-.header, h1 {
+.header, h1, h2{
 
      height: 100px;
      width: 100%;
      text-align: center;
      margin-top: 50px;
+     color: red;
+     font-style: oblique;
+     font-weight: 600;
 }
+
+
 
 html {
-    background-image: url("../images/cave.back.jpg");
-    height: auto;
-    width: auto;
+    background-image: url("../images/cave1.back.jpg");
+   
+    background-size: auto;
 }
 
-h1, p {
+
+
+p {
     color: white;
     text-align: center;
+    font-size: 25px;
 }
 
 #myImg {
     height:300px;
     width:500px;
     position: relative;
+    padding-bottom: 30px;
 }

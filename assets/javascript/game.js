@@ -46,8 +46,7 @@
                 if (numGuesses === 0) {
 
                     numGuesses = 9;
-                    losses++;
-                    guessChoices = [];
+z                    guessChoices = [];
                     document.getElementById("myImg").src = "assets/images/poorly.giphy.gif"
 
                 }
